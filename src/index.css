@@ -1,0 +1,342 @@
+/* Images */
+@keyframes originationAndManagementAddOnImage {
+    0% {
+        opacity: 1;
+    }
+
+    23% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    98% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes servicingAddOnImage {
+    0% {
+        opacity: 1;
+    }
+
+    31% {
+        opacity: 1;
+    }
+
+    33% {
+        opacity: 0;
+    }
+
+    98% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Icons */
+@keyframes originationAddOnIcon {
+    0% {
+        color: #fff;
+        background-color: var(--origination);
+    }
+
+    23% {
+        color: #fff;
+        background-color: var(--origination);
+    }
+
+    25% {
+        color: #777;
+        background-color: #E2E2E2;
+    }
+
+    98% {
+        color: #777;
+        background-color: #E2E2E2;
+    }
+
+    100% {
+        color: #fff;
+        background-color: var(--origination);
+    }
+}
+
+@keyframes managementAddOnIcon {
+    0% {
+        color: #fff;
+        background-color: var(--management);
+    }
+
+    23% {
+        color: #fff;
+        background-color: var(--management);
+    }
+
+    25% {
+        color: #777;
+        background-color: #E2E2E2;
+    }
+
+    98% {
+        color: #777;
+        background-color: #E2E2E2;
+    }
+
+    100% {
+        color: #fff;
+        background-color: var(--management);
+    }
+}
+
+@keyframes servicingAddOnIcon {
+    0% {
+        color: #fff;
+        background-color: var(--servicing);
+    }
+
+    31% {
+        color: #fff;
+        background-color: var(--servicing);
+    }
+
+    33% {
+        color: #777;
+        background-color: #E2E2E2;
+    }
+
+    98% {
+        color: #777;
+        background-color: #E2E2E2;
+    }
+
+    100% {
+        color: #fff;
+        background-color: var(--servicing);
+    }
+}
+
+/* Title & Copy */
+@keyframes originationAndManagementAddOnText {
+    0% {
+        opacity: 1;
+    }
+
+    23% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0.5;
+    }
+
+    98% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes servicingAddOnText {
+    0% {
+        opacity: 1;
+    }
+
+    31% {
+        opacity: 1;
+    }
+
+    33% {
+        opacity: 0.5;
+    }
+
+    98% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Set initial states before animations */
+.layout408_origination_card-component .layout408_image:first-child,
+.layout408_management_card-component .layout408_image:first-child,
+.layout408_servicing_card-component .layout408_image:first-child {
+    opacity: 1;
+}
+
+.layout408_origination_card-component .layout408_image:not(:first-child),
+.layout408_management_card-component .layout408_image:not(:first-child),
+.layout408_servicing_card-component .layout408_image:not(:first-child) {
+    opacity: 0;
+}
+
+.layout408_origination_card-component .layout408_add-on:first-child .layout408_add-on_title,
+.layout408_origination_card-component .layout408_add-on:first-child .layout408_add-on_copy,
+.layout408_management_card-component .layout408_add-on:first-child .layout408_add-on_title,
+.layout408_management_card-component .layout408_add-on:first-child .layout408_add-on_copy,
+.layout408_servicing_card-component .layout408_add-on:first-child .layout408_add-on_title,
+.layout408_servicing_card-component .layout408_add-on:first-child .layout408_add-on_copy {
+    opacity: 1;
+}
+
+.layout408_origination_card-component .layout408_add-on:not(:first-child) .layout408_add-on_title,
+.layout408_origination_card-component .layout408_add-on:not(:first-child) .layout408_add-on_copy,
+.layout408_management_card-component .layout408_add-on:not(:first-child) .layout408_add-on_title,
+.layout408_management_card-component .layout408_add-on:not(:first-child) .layout408_add-on_copy,
+.layout408_servicing_card-component .layout408_add-on:not(:first-child) .layout408_add-on_title,
+.layout408_servicing_card-component .layout408_add-on:not(:first-child) .layout408_add-on_copy {
+    opacity: 0.5;
+}
+
+.layout408_origination_card-component .layout408_add-on:first-child .layout408_add-on_icon-wrapper,
+.layout408_management_card-component .layout408_add-on:first-child .layout408_add-on_icon-wrapper,
+.layout408_servicing_card_component .layout408_add-on:first-child .layout408_add-on_icon-wrapper {
+    color: #FFF;
+}
+
+.layout408_origination_card-component .layout408_add-on:first-child .layout408_add-on_icon-wrapper {
+    background-color: var(--origination);
+}
+
+.layout408_management_card-component .layout408_add-on:first-child .layout408_add-on_icon-wrapper {
+    background-color: var(--management);
+}
+
+.layout408_servicing_card-component .layout408_add-on:first-child .layout408_add-on_icon-wrapper {
+    background-color: var(--servicing);
+}
+
+.layout408_origination_card-component .layout408_add-on:not(:first-child) .layout408_add-on_icon-wrapper,
+.layout408_management_card-component .layout408_add-on:not(:first-child) .layout408_add-on_icon-wrapper,
+.layout408_servicing_card-component .layout408_add-on:not(:first-child) .layout408_add-on_icon-wrapper {
+    color: #777;
+    background-color: #E2E2E2;
+}
+
+/* Image Animations */
+.layout408_origination_card-component .layout408_image,
+.layout408_management_card-component .layout408_image {
+    animation: originationAndManagementAddOnImage 24s infinite linear;
+}
+
+.layout408_servicing_card-component .layout408_image {
+    animation: servicingAddOnImage 18s infinite linear;
+}
+
+.layout408_origination_card-component .layout408_image:nth-child(2),
+.layout408_management_card-component .layout408_image:nth-child(2),
+.layout408_servicing_card-component .layout408_image:nth-child(2) {
+    animation-delay: 6s;
+}
+
+.layout408_origination_card-component .layout408_image:nth-child(3),
+.layout408_management_card-component .layout408_image:nth-child(3),
+.layout408_servicing_card-component .layout408_image:nth-child(3) {
+    animation-delay: 12s;
+}
+
+.layout408_origination_card-component .layout408_image:nth-child(4),
+.layout408_management_card-component .layout408_image:nth-child(4) {
+    animation-delay: 18s;
+}
+
+/* Icon Animations */
+.layout408_origination_card-component .layout408_add-on .layout408_add-on_icon-wrapper {
+    animation: originationAddOnIcon 24s infinite linear;
+}
+
+.layout408_management_card-component .layout408_add-on .layout408_add-on_icon-wrapper {
+    animation: managementAddOnIcon 24s infinite linear;
+}
+
+.layout408_servicing_card-component .layout408_add-on .layout408_add-on_icon-wrapper {
+    animation: servicingAddOnIcon 18s infinite linear;
+}
+
+.layout408_origination_card-component .layout408_add-on:nth-child(2) .layout408_add-on_icon-wrapper,
+.layout408_management_card-component .layout408_add-on:nth-child(2) .layout408_add-on_icon-wrapper,
+.layout408_servicing_card-component .layout408_add-on:nth-child(2) .layout408_add-on_icon-wrapper {
+    animation-delay: 6s;
+}
+
+.layout408_origination_card-component .layout408_add-on:nth-child(3) .layout408_add-on_icon-wrapper,
+.layout408_management_card-component .layout408_add-on:nth-child(3) .layout408_add-on_icon-wrapper,
+.layout408_servicing_card-component .layout408_add-on:nth-child(3) .layout408_add-on_icon-wrapper {
+    animation-delay: 12s;
+}
+
+.layout408_origination_card-component .layout408_add-on:nth-child(4) .layout408_add-on_icon-wrapper,
+.layout408_management_card-component .layout408_add-on:nth-child(4) .layout408_add-on_icon-wrapper {
+    animation-delay: 18s;
+}
+
+/* Title & Copy Animations */
+.layout408_origination_card-component .layout408_add-on .layout408_add-on_title,
+.layout408_origination_card-component .layout408_add-on .layout408_add-on_copy,
+.layout408_management_card-component .layout408_add-on .layout408_add-on_title,
+.layout408_management_card-component .layout408_add-on .layout408_add-on_copy {
+    animation: originationAndManagementAddOnText 24s infinite linear;
+}
+
+.layout408_servicing_card-component .layout408_add-on .layout408_add-on_title,
+.layout408_servicing_card-component .layout408_add-on .layout408_add-on_copy {
+    animation: servicingAddOnText 18s infinite linear;
+}
+
+.layout408_origination_card-component .layout408_add-on:nth-child(2) .layout408_add-on_title,
+.layout408_origination_card-component .layout408_add-on:nth-child(2) .layout408_add-on_copy,
+.layout408_management_card-component .layout408_add-on:nth-child(2) .layout408_add-on_title,
+.layout408_management_card-component .layout408_add-on:nth-child(2) .layout408_add-on_copy,
+.layout408_servicing_card-component .layout408_add-on:nth-child(2) .layout408_add-on_title,
+.layout408_servicing_card-component .layout408_add-on:nth-child(2) .layout408_add-on_copy {
+    animation-delay: 6s;
+}
+
+.layout408_origination_card-component .layout408_add-on:nth-child(3) .layout408_add-on_title,
+.layout408_origination_card-component .layout408_add-on:nth-child(3) .layout408_add-on_copy,
+.layout408_management_card-component .layout408_add-on:nth-child(3) .layout408_add-on_title,
+.layout408_management_card-component .layout408_add-on:nth-child(3) .layout408_add-on_copy,
+.layout408_servicing_card-component .layout408_add-on:nth-child(3) .layout408_add-on_title,
+.layout408_servicing_card-component .layout408_add-on:nth-child(3) .layout408_add-on_copy {
+    animation-delay: 12s;
+}
+
+.layout408_origination_card-component .layout408_add-on:nth-child(4) .layout408_add-on_title,
+.layout408_origination_card-component .layout408_add-on:nth-child(4) .layout408_add-on_copy,
+.layout408_management_card-component .layout408_add-on:nth-child(4) .layout408_add-on_title,
+.layout408_management_card-component .layout408_add-on:nth-child(4) .layout408_add-on_copy {
+    animation-delay: 18s;
+}
+
+/* Gradient Animation */
+@keyframes backgroundGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.background-color-gradient {
+    background-size: 400% 400%;
+    animation: backgroundGradient 15s ease infinite;
+}
