@@ -4,6 +4,9 @@
     "rootDir": ".",
     "baseUrl": "./",
     "paths": {
+      "$atlas/*": [
+        "src/atlas/*"
+      ],
       "$digerati/*": [
         "src/digerati/*"
       ]
